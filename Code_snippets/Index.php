@@ -143,7 +143,30 @@ require_once 'includes/signup_view.inc.php';
 </div>
 
     <form class="form" action="includes/signup.inc.php" method="post">
-    
+        <label class="label" for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" >
+        
+        <label class="label" for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" >
+
+        <label class="label" for="username">Create a username:</label>
+        <input type="text" id="username" name="username" >
+        
+        <label class="label" for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+        
+        <label class="label" for="email">Email Address:</label>
+        <input type="text" id="email" name="email" >
+        
+        <label class="label" for="usersQuery">Your Query:</label>
+        <input yype="textarea" id="usersQuery" name="usersQuery">
+
+        <label class="label" for="pwd">Create Password:</label>
+        <input type="password" id="pwd" name="pwd">
+        
+        <label class="label" for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password">
+        
         <input type="submit" value="Submit">
     </form>
 </div> 
