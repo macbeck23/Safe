@@ -37,7 +37,7 @@ require_once 'includes/signup_view.inc.php';
 
 
     <div class="text-container">
-        <h1>Shared Art. Finding Expression<br></h1>
+        <h1>Sharing Art: Finding Expression<br></h1>
     
       </div>
       

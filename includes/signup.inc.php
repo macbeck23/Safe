@@ -54,22 +54,24 @@ $errors =[];
 
     if($errors){
         $_SESSION["errors_signup"] =$errors;
-        header("location:../index.php");
+
+
+        header("location:../index.php#contact");
         die();
     }
 
     create_user($pdo, $firstname, $lastname, $username,  $phone,  $email, $usersQuery,  $pwd, $confirm_password) ;
 
-    header("location:../index.php?signup=success");
+    header("location:../index.php#contact?signup=success");
 
     $pdo = null;
     $stmt = null;
     
-
+  die();
 }  catch (PDOException $e) {
     die("Query failed ". $e->getMessage());
 }
 }else {
-    header("location:../index.php");
+    header("location:../index.php#contact");
     die();
 }

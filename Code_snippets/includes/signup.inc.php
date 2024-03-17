@@ -54,6 +54,8 @@ $errors =[];
 
     if($errors){
         $_SESSION["errors_signup"] =$errors;
+
+        
         header("location:../index.php");
         die();
     }

@@ -20,6 +20,7 @@ header {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
  
 }
 
@@ -49,6 +50,7 @@ nav ul li a {
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease;
+    margin-right: auto;
 }
 
 nav ul li a:hover {
